@@ -1,0 +1,35 @@
+import java.util.Scanner;
+   public class Gatewood {
+      public static void main (String [] args) {
+      
+      Scanner input = new Scanner (System.in);
+   
+      System.out.println("NARRARTOR: Welcome to the wonderful town of Gatewood!");
+      System.out.println("NARRARTOR: Where the only town in the USA is far from society.");
+      System.out.println("");
+      System.out.println("NARRARTOR: Recently some things have been acting very strangely around here.");
+      System.out.println("NARRARTOR: Every so often someone in this town has been going missing!");
+      System.out.println("NARRARTOR: Or some new resident has moved in, with their weird ways of culture.");
+      System.out.println("NARRARTOR: Things are moving faster than it should be and I am starting to feel like I will be next.");
+      System.out.println("End of daily journal entry.");
+      System.out.println("PLAYER: Let's hope this doesn't reall--");
+      System.out.println("");
+      System.out.println("");
+      System.out.println("*THUD*");
+      System.out.println("PLAYER: Ugh, ouch. What just happened to me? Wait, where am I?? ");
+      System.out.println("");
+      System.out.println("SPEAKER: Welcome to Gateward, pipsqueak!");
+      System.out.println("PLAYER: Who ARE you? More importantly where and why am I here??");
+      System.out.println("SPEAKER: Shush! Let me explain this really quick.");
+      System.out.println("SPEAKER: Survive.");
+      System.out.println("");
+      System.out.println("*VVVVVVVOOOOOOOMMMMMMMMMMM*");
+      System.out.println("Choose your hero class: (Enter a number)");
+      System.out.println("1: Warrior");   
+      System.out.println("2: Archer");
+      System.out.println("3: Mage");
+      System.out.println(""); 
+      System.out.println("");
+      System.out.println("");
+      
+      int pick = input.nextInt(); 
