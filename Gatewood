@@ -1,9 +1,10 @@
+
 import java.util.Scanner;
    public class Gatewood {
-      public static void main (String [] args) {
+      public static void main (String [] args){
       
       Scanner input = new Scanner (System.in);
-   
+      //This is the start of the story text base, note: include to use time interval 
       System.out.println("NARRARTOR: Welcome to the wonderful town of Gatewood!");
       System.out.println("NARRARTOR: Where the only town in the USA is far from society.");
       System.out.println("");
@@ -32,4 +33,34 @@ import java.util.Scanner;
       System.out.println("");
       System.out.println("");
       
+      //Player writes in 1, 2, 3 for their class
       int pick = input.nextInt(); 
+      int playerhealth = 0; //Will be the subclass hp of whatever hero class
+      int enemyhealth = 0; // Will be changed to include different types of subclass health\
+      int warriorslash = 0;
+      Player warrior = new Player();
+      
+ 	  
+      //loads the pick class
+      
+      //load the warriorhp from subclass Player
+      if (pick == 1) {
+         playerhealth = warrior.warriorhp;
+         warriorslash = warrior.slash;
+         System.out.println("You feel the power of the warrior class flowing inside!");
+         System.out.println("You loaded up with 1000 Health!");
+         }
+      //load the archerhp from subclass Player
+      if (pick == 2) {
+         playerhealth = warrior.archerhp;
+         System.out.println("You feel the power of the archer class flowing inside!");
+         System.out.println("You loaded up with 1200 health!");
+         }
+      //load the magehp from subclass Player
+      if (pick == 3) {
+         playerhealth = warrior.magehp;
+         System.out.println("You feel the power of the mage class flowing inside!");
+         System.out.println("You loaded up with 900 health!");
+         }
+    }
+ }
