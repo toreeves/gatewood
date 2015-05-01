@@ -1,0 +1,14 @@
+
+public class Player {
+    int warriorhp;
+	  int slash;
+	  int archerhp;	
+	  int magehp;
+	
+	public Player(){
+		warriorhp = 1000;
+		slash = 50;
+		archerhp = 1200;
+		magehp = 900;
+	}
+}
